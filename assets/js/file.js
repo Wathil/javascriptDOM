@@ -9,6 +9,11 @@ function changer_style() {
     pid.style.padding = "5px";
 }
 
+function changer_style2() {
+    let pid2 = document.getElementById("parag2");
+    pid2.className = "new-style";
+}
+
 function getAttributes() {
     let aid = document.getElementById("w3r");
     let attributes = aid.getAttributeNames();
