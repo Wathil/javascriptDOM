@@ -11,7 +11,7 @@ function changer_style() {
 
 function changer_style2() {
     let pid2 = document.getElementById("parag2");
-    pid2.className = "new-style";
+    pid2.classList.add("new-style");
 }
 
 function getAttributes() {
